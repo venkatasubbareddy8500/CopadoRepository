@@ -153,16 +153,6 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <fields>
-        <fullName>CopadoEmail__c</fullName>
-        <externalId>false</externalId>
-        <label>CopadoEmail</label>
-        <required>false</required>
-        <trackHistory>false</trackHistory>
-        <trackTrending>false</trackTrending>
-        <type>Email</type>
-        <unique>false</unique>
-    </fields>
     <label>CopadoObject</label>
     <nameField>
         <label>CopadoObject Name</label>
@@ -173,4 +163,14 @@
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
+    <fields>
+        <fullName>CopadoEmail__c</fullName>
+        <externalId>false</externalId>
+        <label>CopadoEmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>
